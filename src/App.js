@@ -5,10 +5,13 @@ import SummarizeText from './pages/SummarizeText';
 import SummarizeVideo from './pages/SummarizeVideo';
 import About from './pages/About';
 
+import { ToastContainer, toast } from 'react-toastify';
+
 
 function App() {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+      <ToastContainer />
       <Router>
         <Navbar />
         <hr className='bg-black h-1'/>
